@@ -4,6 +4,10 @@ body{
     
 }
 
+section{
+    margin-bottom: 200px;
+}
+
 .donate-now-section{
     background-image: url(/images/Property\ 1=Default.jpg);
     background-size: cover;
@@ -30,7 +34,7 @@ body{
     font-size: 24px;
 }
 
-.donate-now-section a{
+.orange-btn{
     text-decoration: none;
     color: #fff;
     padding: 16px 12px;
@@ -39,4 +43,55 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
+}
+
+.amounts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.amount{
+    background-color: #fafafa;
+    width: 135px;
+    height:123px;
+    align-self: center;
+    margin:15px;
+    
+}
+.amount h2{
+    margin-top: 35%;
+}
+
+.amount2 h2{
+    margin-top:35%;
+}
+
+.amount2{
+    background-color: #ff5959;
+    width: 135px;
+    height:123px;
+    margin:15px;
+}
+
+.donate-today{
+    text-align: center;
+}
+
+.donate-today h1{
+    font-size: 65px;
+}
+.donate-today p{
+    font-size: 20px;
+}
+
+.input-text{
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 20px;
 }
