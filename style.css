@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    padding: 0;
+    
+}
+
+.donate-now-section{
+    background-image: url(/images/Property\ 1=Default.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 659px;
+}
+
+.first-elements{
+    text-align: center;
+}
+
+.donate-now-section h1{
+   font-size: 65px;
+   font-weight: 700; 
+   color: #fff;
+   padding-top: 100px;
+   font-family: 'Inter', sans-serif;
+}
+.donate-now-section p{
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    line-height: 28px;
+    font-size: 24px;
+}
+
+.donate-now-section a{
+    text-decoration: none;
+    color: #fff;
+    padding: 16px 12px;
+    background-color: #ff5959;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
