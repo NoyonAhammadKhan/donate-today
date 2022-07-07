@@ -209,7 +209,9 @@ section{
     border-radius: 5px;
 }
 
-
+.event-image a{
+    text-decoration: none;
+}
 
 .mission-section{
     text-align: center;
